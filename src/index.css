@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-swiss-red: #FF0000; /* Pure Swiss Red */
+  --color-swiss-dark: #000000;
+  --color-swiss-gray: #F0F0F0;
+  --color-swiss-border: #000000; /* Bold black borders for Swiss style */
+}
+
+body {
+  @apply bg-swiss-gray text-swiss-dark font-sans antialiased;
+}
+
+.swiss-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1px;
+  background-color: var(--color-swiss-border);
+  border: 1px solid var(--color-swiss-border);
+}
+
+.swiss-cell {
+  @apply bg-white p-6;
+}
+
+.swiss-card {
+  @apply bg-white border-2 border-swiss-dark shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] overflow-hidden;
+}
+
+.swiss-button-primary {
+  @apply bg-swiss-red text-white px-6 py-3 font-bold uppercase tracking-tighter transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] active:translate-x-[0px] active:translate-y-[0px] active:shadow-none border-2 border-swiss-dark;
+}
+
+.swiss-button-secondary {
+  @apply bg-white border-2 border-swiss-dark text-swiss-dark px-6 py-3 font-bold uppercase tracking-tighter transition-all hover:bg-gray-100;
+}
+
+.label-micro {
+  @apply text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500;
+}
+
+.value-display {
+  @apply font-mono font-bold text-2xl tracking-tighter;
+}
+
+/* Swiss Typography specific */
+h1, h2, h3 {
+  @apply font-extrabold tracking-tighter uppercase;
+}
+
+.thermometer-container {
+  @apply relative w-8 h-64 bg-gray-200 border-2 border-swiss-dark rounded-full overflow-hidden;
+}
+
+.thermometer-mercury {
+  @apply absolute bottom-0 w-full bg-swiss-red transition-all duration-1000 ease-out;
+}
+
