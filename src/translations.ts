@@ -23,6 +23,7 @@ export const translations = {
     nsrPerBottle: "NSR / Bottle",
     targetProgress: "Target Progress",
     territoryMap: "Territory Map",
+    firstClientVisit: "First client visit"
     selectOutlet: "Select an outlet to begin negotiation",
     completed: "Completed",
     negotiation: "Negotiation",
@@ -123,6 +124,7 @@ export const translations = {
     nsrPerBottle: "NSR / Flasche",
     targetProgress: "Zielerreichung",
     territoryMap: "Gebietskarte",
+    firstClientVisit: "Erster Kundenbesuch",
     selectOutlet: "Wählen Sie ein Outlet aus, um die Verhandlung zu beginnen",
     completed: "Abgeschlossen",
     negotiation: "Verhandlung",
@@ -222,6 +224,7 @@ export const translations = {
     nsrPerBottle: "NSR / Bouteille",
     targetProgress: "Progression cible",
     territoryMap: "Carte du territoire",
+    firstClientVisit: "Première visite client",
     selectOutlet: "Sélectionnez un point de vente pour commencer la négociation",
     completed: "Terminé",
     negotiation: "Négociation",
