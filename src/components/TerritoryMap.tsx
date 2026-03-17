@@ -33,7 +33,7 @@ export const TerritoryMap: React.FC<TerritoryMapProps> = ({
         <div className="flex justify-between items-end mb-12 border-b-4 border-swiss-dark pb-6">
           <div>
        <h2 className="text-4xl font-black mb-2">{t.territoryMap}</h2>
-  <p className="label-micro">{t.firstClientVisit}</p>   {/* ← ADD THIS */}
+  <p className="label-micro">{t.firstClientVisit}</p>
   <p className="label-micro">{t.selectOutlet}</p>
           </div>
           <div className="text-right">
