@@ -23,7 +23,7 @@ export const translations = {
     nsrPerBottle: "NSR / Bottle",
     targetProgress: "Target Progress",
     territoryMap: "Territory Map",
-    firstClientVisit: "First client visit"
+    firstClientVisit: "First client visit",
     selectOutlet: "Select an outlet to begin negotiation",
     completed: "Completed",
     negotiation: "Negotiation",
@@ -87,7 +87,7 @@ export const translations = {
     missionAccomplished: "Mission Accomplished",
     finalRevenueEfficiency: "Final Revenue Efficiency",
     restartSimulation: "Restart Simulation",
-    quoteZurich: "My cooler is packed with Fever Tree. I don't have room for another sugary option. What else have you got?",
+    quoteZurich: "Red Bull offered me a better cooler deal. Why should I stick with Monster?",
     quoteTicino: "Families come for the food, not the drinks. I need affordable options that don't sit on the shelf.",
     quoteLausanne: "Our peak is 7–10 AM. People grab and go. If it's not cold and ready, they walk.",
     insightZurich: "Guests here expect premium glass bottles served at the table. Sugar-free options are a must — our clientele watches what they drink.",
@@ -187,7 +187,7 @@ export const translations = {
     missionAccomplished: "Mission erfüllt",
     finalRevenueEfficiency: "Finale Umsatzeffizienz",
     restartSimulation: "Simulation neu starten",
-    quoteZurich: "Mein Kühlschrank ist voll mit Fever Tree. Für noch ein zuckerhaltiges Getränk habe ich keinen Platz. Was habt ihr sonst noch?",
+    quoteZurich: "Red Bull hat mir ein besseres Kühler-Angebot gemacht. Warum sollte ich bei Monster bleiben?",
     quoteTicino: "Familien kommen wegen des Essens, nicht wegen der Getränke. Ich brauche erschwingliche Optionen, die nicht im Regal stehen bleiben.",
     quoteLausanne: "Unsere Spitzenzeit ist von 7 bis 10 Uhr morgens. Die Leute kommen und gehen schnell. Wenn es nicht kalt und bereit ist, gehen sie weiter.",
     insightZurich: "Gäste hier erwarten Premium-Glasflaschen, die am Tisch serviert werden. Zuckerfreie Optionen sind ein Muss – unsere Klientel achtet darauf, was sie trinkt.",
@@ -287,7 +287,7 @@ export const translations = {
     missionAccomplished: "Mission accomplie",
     finalRevenueEfficiency: "Efficacité finale des revenus",
     restartSimulation: "Redémarrer la simulation",
-    quoteZurich: "Mon frigo est plein de Fever Tree. Je n'ai plus de place pour une autre option sucrée. Qu'est-ce que vous avez d'autre ?",
+    quoteZurich: "Red Bull m'a proposé une meilleure offre de frigo. Pourquoi devrais-je rester avec Monster ?",
     quoteTicino: "Les familles viennent pour la nourriture, pas pour les boissons. J'ai besoin d'options abordables qui ne restent pas sur l'étagère.",
     quoteLausanne: "Notre pic est de 7h à 10h. Les gens sont pressés. Si ce n'est pas froid et prêt, ils s'en vont.",
     insightZurich: "Les clients ici attendent des bouteilles en verre premium servies à table. Les options sans sucre sont indispensables — notre clientèle surveille ce qu'elle boit.",
@@ -303,3 +303,4 @@ export const translations = {
     algorithmDesc: "Votre score est calculé sur la base de : Revenu (30%), Volume (20%), Étendue du portefeuille (20%) et Efficacité NSR/Bouteille (30%)."
   }
 };
+
