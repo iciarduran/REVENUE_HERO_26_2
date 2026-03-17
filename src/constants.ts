@@ -69,7 +69,7 @@ export const OUTLETS: Outlet[] = [
     persona: {
       name: 'Sandra',
       description: 'Bar Manager',
-      objection: 'Red Bull offered me a better cooler deal. Why should I stick with Monster?',
+      objection: 'My cooler is packed with Fever Tree. I don't have room for another sugary option. What else have you got?',
       consumerInsight: 'Guests here expect premium glass bottles served at the table. Sugar-free options are a must — our clientele watches what they drink.',
       preferences: 'MIXER PREMIUM ZERO',
       preference: [BrandCategory.MIXER, BrandCategory.ZERO]
